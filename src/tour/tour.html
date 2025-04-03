@@ -5,17 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Tour pela FACOMP</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js" defer></script>
+    <script src="script.js" async></script>
     <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-cursor-teleport@1.6.0/dist/aframe-cursor-teleport-component.min.js"></script>
   </head>
   <body>
       <a-assets>
-        <a-asset-item id="modelo-01" src="models/modelo_facomp.glb"></a-asset-item>
+        <a-asset-item id="modelo-01" src="models/predio_facomp.glb"></a-asset-item>
       </a-assets>
     
       <a-scene>
-        
         <!-- Player -->
         <a-entity id="cameraRig" position="3 0 12" cursor-teleport="cameraRig: #cameraRig; cameraHead: #head; collisionEntities: .collision">
           <a-entity id="head" position="0 1.3 0" camera look-controls="reverseMouseDrag: true"></a-entity>         
@@ -23,6 +22,6 @@
         
         <a-entity class="collision" gltf-model="#modelo-01" scale="1 1 1" rotation="0 0 0"></a-entity>
 
-    </a-scene>
+      </a-scene>
   </body>
 </html>
