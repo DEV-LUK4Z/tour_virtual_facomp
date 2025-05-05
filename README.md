@@ -13,7 +13,7 @@ Este projeto visa não apenas **facilitar o acesso remoto** às instalações da
 - HTML/CSS
 
 ## 🛠️ Disponivel em:
-https://luk4z.github.io/tour_virtual_facomp
+https://dev-luk4z.github.io/tour_virtual_facomp
 
 ## 📄 Licença
 
