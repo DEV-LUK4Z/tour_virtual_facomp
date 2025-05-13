@@ -10,11 +10,16 @@
     <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-cursor-teleport@1.6.0/dist/aframe-cursor-teleport-component.min.js"></script>
   </head>
   <body>
-      <a-assets>
-        <a-asset-item id="modelo-01" src="https://cdn.glitch.me/06c1d76d-58c5-4cf9-b713-5c10b112f3d9/untitled.glb?v=1746742175274"></a-asset-item>
-      </a-assets>
+
+      <div id="aviso-prototipo">
+        Esta Aplicação é um protótipo e está em desenvolvimento.
+      </div>
     
+      
       <a-scene>
+        <a-assets>
+          <a-asset-item id="modelo-01" src="https://cdn.glitch.me/06c1d76d-58c5-4cf9-b713-5c10b112f3d9/untitled.glb?v=1746742175274"></a-asset-item>
+        </a-assets>
         <!-- Player -->
         <a-entity id="cameraRig" position="2 0 15" cursor-teleport="cameraRig: #cameraRig; cameraHead: #head; collisionEntities: .collision">
           <a-entity id="head" position="0 1.5 0" camera look-controls="reverseMouseDrag: true"></a-entity>         
