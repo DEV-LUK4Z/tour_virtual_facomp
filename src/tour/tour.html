@@ -16,22 +16,21 @@
     <a-scene>
 
       <a-assets>
-        <a-asset-item id="modelo-01" src="/src/assests/modelo_3d.glb"></a-asset-item>
+        <a-asset-item id="modelo-01" src="src/assests/modelo_3d.glb"></a-asset-item>
         <img id="sky" src="https://cdn.glitch.global/06c1d76d-58c5-4cf9-b713-5c10b112f3d9/ceu2?v=1743032949566">
       </a-assets>
 
       <div id="aviso-prototipo">
-        Esta Aplicação é um protótipo e não apresenta o resultado final.
+        Esta Aplicação é um protótipo e não representa o resultado final.
       </div>
 
-        <!--
-        <a-entity id="cameraRig" position="2 0 15" cursor-teleport="cameraRig: #cameraRig; cameraHead: #head; collisionEntities: .collision">
-          <a-entity id="head" position="0 1.5 0" camera look-controls="reverseMouseDrag: true"></a-entity>         
-        </a-entity>-->
+      <a-entity id="cameraRig" position="2 0 15" cursor-teleport="cameraRig: #cameraRig; cameraHead: #head; collisionEntities: .collision">
+        <a-entity id="head" position="0 1.5 0" camera look-controls="reverseMouseDrag: true"></a-entity>         
+      </a-entity>
         
       <a-sky src="#sky"></a-sky>
 
-      <a-entity class="collision" gltf-model="#modelo-01" scale="0.2 0.2 0.2" rotation="0 180 0" position="1 12 1"></a-entity>
+      <a-entity class="collision" gltf-model="#modelo-01" scale="0.5 0.5 0.5" rotation="0 180 0" position="1 1.6 1"></a-entity>
 
 
       </a-scene>
