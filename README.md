@@ -1,22 +1,56 @@
-# 🏛️ Tour Virtual FACOMP
+# Tour Virtual FACOMP
 
-A Faculdade de Computação (FACOMP) da Universidade Federal do Pará (UFPA), Campus Castanhal, destaca-se por sua infraestrutura moderna e recursos avançados. Localizada na Av. dos Universitários, s/n - Jaderlândia, Castanhal - PA, a FACOMP oferece os cursos de **Engenharia de Computação** e **Sistemas de Informação**.
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://luk4z.github.io/tour_virtual_facomp)
+[![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-red?style=for-the-badge)](#license)
 
-Com o objetivo de proporcionar uma experiência **imersiva e interativa** aos visitantes e membros da comunidade acadêmica, desenvolvi um **tour em realidade virtual** pelas instalações da FACOMP. Este tour permite que usuários **naveguem virtualmente** pelos ambientes da faculdade, explorando salas de aula, laboratórios e demais dependências.
+## Sobre o Projeto
 
-Este projeto visa não apenas **facilitar o acesso remoto** às instalações da FACOMP, mas também servir como **ferramenta de divulgação** para futuros estudantes e parceiros institucionais, demonstrando o compromisso da faculdade com a **inovação e a excelência no ensino de computação**.
+O **Tour Virtual FACOMP** é uma aplicação de realidade virtual desenvolvida para proporcionar uma experiência imersiva pelas instalações da Faculdade de Computação (FACOMP) da Universidade Federal do Pará (UFPA), Campus Castanhal.
 
-## 🚀 Tecnologias Utilizadas
-- Blender (para modelagem 3D)
-- A-Frame JS
-- JavaScript
-- HTML/CSS
+### Objetivos
 
-## 🛠️ Disponivel em:
-https://luk4z.github.io/tour_virtual_facomp
+- **Acessibilidade**: Facilitar o acesso remoto às instalações da FACOMP
+- **Divulgação**: Servir como ferramenta de apresentação para futuros estudantes
+- **Inovação**: Demonstrar o compromisso da faculdade com tecnologias emergentes
+- **Interatividade**: Proporcionar navegação virtual pelos ambientes acadêmicos
 
-## 📄 Licença
+## Funcionalidades
 
-Este projeto é protegido por direitos autorais. **Não é permitida a modificação, distribuição ou uso comercial sem autorização expressa do autor.**  
+- ✅ Navegação em realidade virtual
+- ✅ Exploração de salas de aula e laboratórios
+- ✅ Interface intuitiva e responsiva
+- ✅ Compatibilidade com dispositivos VR
+- ✅ Experiência web sem necessidade de instalação
 
-Para mais informações, entre em contato com contato.lucas.soares.dev@gmail.com 
+## Tecnologias
+
+| Tecnologia | Uso |
+|------------|-----|
+| **Blender** | Modelagem 3D e criação de ambientes |
+| **A-Frame** | Framework WebVR |
+| **JavaScript** | Lógica de interação |
+| **HTML/CSS** | Interface e estilização |
+
+## Acesso
+
+🌐 **Demonstração ao vivo**: [https://luk4z.github.io/tour_virtual_facomp](https://luk4z.github.io/tour_virtual_facomp)
+
+## Sobre a FACOMP
+
+**Faculdade de Computação - UFPA Campus Castanhal**
+
+📍 **Endereço**: Av. dos Universitários, s/n - Jaderlândia, Castanhal - PA
+
+**Cursos oferecidos**:
+- Engenharia de Computação
+- Sistemas de Informação
+
+## Contato
+
+📧 **Email**: contato.lucas.soares.dev@gmail.com
+
+## License
+
+© 2024 - Todos os direitos reservados. Este projeto é protegido por direitos autorais.
+
+**Não é permitida a modificação, distribuição ou uso comercial sem autorização expressa do autor.** 
