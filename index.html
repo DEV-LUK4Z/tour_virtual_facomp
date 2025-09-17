@@ -6,11 +6,25 @@
     <meta name="description" content="Tour de Realidade Virtual pela Faculdade de Computação da UFPA, Campus Castanhal. Explore laboratórios e salas de aula de forma interativa.">
     <meta property="og:title" content="Tour de Realidade Virtual - FACOMP UFPA">
     <meta property="og:description" content="Explore virtualmente a Faculdade de Computação da UFPA, Campus Castanhal, com um tour de realidade virtual imersivo.">
-    <meta property="og:image" content="URL_DA_IMAGEM_DE_THUMBNAIL">
-    <meta property="og:url" content="URL_DO_SITE">
+    <meta property="og:image" content="https://dev-luk4z.github.io/tour_virtual_facomp/assets/thumbnail.jpg">
+    <meta property="og:url" content="https://dev-luk4z.github.io/tour_virtual_facomp">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="theme-color" content="#2042ff">
+    <link rel="canonical" href="https://dev-luk4z.github.io/tour_virtual_facomp">
     <meta name="author" content="LUK4Z">
+    <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="src/style/main.css">
     <title>Tour de Realidade Virtual - FACOMP UFPA</title>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then(registration => console.log('SW registered'))
+            .catch(error => console.log('SW registration failed'));
+        });
+      }
+    </script>
 </head>
 <body>
     <main>

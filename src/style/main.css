@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500;700&display=swap');
 
 * {
     padding: 0;
@@ -88,12 +88,20 @@ section > p {
     color: #fff;
     border: none;
     cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    box-shadow: 0 4px 15px rgba(32, 66, 255, 0.3);
+    will-change: transform;
 }
 
 .tour-button:hover {
     background-color: #ff6161;
-    transform: scale(1.05);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 97, 97, 0.4);
+}
+
+.tour-button:active {
+    transform: translateY(0);
 }
 
 
